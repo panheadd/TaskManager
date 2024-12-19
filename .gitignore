@@ -1,0 +1,72 @@
+# Qt Creator specific files
+*.pro.user
+*.pro.user.*
+*.qrc.dep
+
+# Build directories
+build-*/
+debug/
+release/
+*.obj
+*.o
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.app
+*.dylib
+Makefile
+qmake.*
+
+# Intermediate and temporary files
+*.moc
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*.qmlc
+*.qmltypes
+*.qmlproject.user
+*.qbs.user
+*.qbs.user.*
+
+# Logs and temporary files
+*.log
+*.swp
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# CMake files (if used)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# macOS system files
+.DS_Store
+
+# Build directories
+build*/
+debug/
+release/
+
+# Qt Creator specific files
+*.pro.user
+*.pro.user.*
+*.qrc.dep
+
+# Generated files
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# Logs, temp, and backups
+*.log
+*~
+*.swp

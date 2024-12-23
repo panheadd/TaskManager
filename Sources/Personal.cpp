@@ -1,7 +1,19 @@
 #include "Headers/Personal.h"
 
-Personal::Personal(const std::string& name, const std::string& description, int priority)
-    : Task(name, description, priority, TaskTag::Personal) {}
+Personal::Personal(const std::string& name, const std::string& description, int priority , std::string& place)
+    : Task(name, description, priority, TaskTag::Personal) {
+    setPlace(place);
+}
+
+
+void Personal::setPlace(const std::string& place){
+    this->place = place;
+
+}
+std::string Personal::getPlace() const {
+    return this->place;
+}
+
 
 void Personal::addPerson(const std::string& person){
     this->people.push_back(person);

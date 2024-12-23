@@ -11,7 +11,10 @@ private:
     std::vector<std::string> bringings;
 
 public:
-    Personal(const std::string& name, const std::string& description, int priority);
+    Personal(const std::string& name, const std::string& description, int priority, std::string& place);
+
+    void setPlace(const std::string& place);
+    std::string getPlace() const;
 
     void addPerson(const std::string& person);
     void deletePerson(const std::string& person);

@@ -11,6 +11,7 @@ CONFIG += c++17
 HEADERS += Headers/mainwindow.h \
     Headers/Task.h
 SOURCES += Sources/main.cpp \
+           Sources/Task.cpp \
            Sources/mainwindow.cpp
 FORMS += Forms/mainwindow.ui
 

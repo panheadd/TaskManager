@@ -1,10 +1,11 @@
-#include <iostream>
 #include "Headers/Task.h"
 
-Task::Task(const std::string& name, const std::string& description, int priority){
+Task::Task(const std::string& name, const std::string& description, int priority, TaskTag tag){
     setName(name);
     setDescription(description);
     setPriority(priority);
+    setCompleted(false);
+    setTag(tag);
 }
 
 
@@ -38,4 +39,12 @@ void Task::setCompleted(bool completed){
 
 bool Task::isCompleted() const {
     return this->completed;
+}
+
+void Task::setTag(const TaskTag tag){
+    this->tag = tag;
+}
+
+TaskTag Task::getTag() const {
+    return this->tag;
 }

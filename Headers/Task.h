@@ -2,15 +2,29 @@
 #define TASK_H
 #include <iostream>
 
+enum class TaskTag{
+    Personal,
+    MyProject,
+    School,
+    Sport,
+    Travel,
+    Construction,
+    Farming,
+    Transaction,
+    CustomerPlacement,
+    Cleaning,
+};
+
 class Task {
 protected:
     std::string name;
     std::string description;
     int priority;
     bool completed;
+    TaskTag tag;
 
 public:
-    Task(const std::string& name,const std::string& description, int priority);
+    Task(const std::string& name,const std::string& description, int priority, TaskTag tag);
     virtual ~Task() = default;
 
     void setName(const std::string& name);
@@ -25,7 +39,12 @@ public:
     void setCompleted(bool completed);
     bool isCompleted() const;
 
+
+    void setTag(const TaskTag tag);
+    TaskTag getTag() const;
+
     virtual void display() const = 0;
 };
+
 
 #endif // TASK_H

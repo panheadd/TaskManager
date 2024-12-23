@@ -9,8 +9,8 @@ void MyProject::addLanguage(const std::string& language){
 
 void MyProject::deleteLanguage(const std::string& language){
     std::vector<std::string>::iterator it = std::remove(this->languages.begin(), this->languages.end(), language);
-    if (it != languages.end()){
-        languages.erase(it, languages.end());
+    if (it != this->languages.end()){
+        this->languages.erase(it, this->languages.end());
     }
 }
 
@@ -25,8 +25,8 @@ void MyProject::addTool(const std::string& tool){
 
 void MyProject::deleteTool(const std::string& tool){
     std::vector<std::string>::iterator it = std::remove(this->tools.begin(), this->tools.end(), tool);
-    if (it != tools.end()){
-        tools.erase(it, tools.end());
+    if (it != this->tools.end()){
+        this->tools.erase(it, this->tools.end());
     }
 }
 

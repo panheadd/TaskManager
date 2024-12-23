@@ -12,11 +12,13 @@ HEADERS += Headers/mainwindow.h \
     Headers/MyProject.h \
     Headers/Personal.h \
     Headers/SchoolTask.h \
+    Headers/Sport.h \
     Headers/Task.h
 SOURCES += Sources/main.cpp \
            Sources/MyProject.cpp \
            Sources/Personal.cpp \
            Sources/SchoolTask.cpp \
+           Sources/Sport.cpp \
            Sources/Task.cpp \
            Sources/mainwindow.cpp
 FORMS += Forms/mainwindow.ui

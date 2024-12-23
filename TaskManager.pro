@@ -13,13 +13,15 @@ HEADERS += Headers/mainwindow.h \
     Headers/Personal.h \
     Headers/SchoolTask.h \
     Headers/Sport.h \
-    Headers/Task.h
+    Headers/Task.h \
+    Headers/Travel.h
 SOURCES += Sources/main.cpp \
            Sources/MyProject.cpp \
            Sources/Personal.cpp \
            Sources/SchoolTask.cpp \
            Sources/Sport.cpp \
            Sources/Task.cpp \
+           Sources/Travel.cpp \
            Sources/mainwindow.cpp
 FORMS += Forms/mainwindow.ui
 

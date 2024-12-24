@@ -9,6 +9,7 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 HEADERS += Headers/mainwindow.h \
+    Headers/Construction.h \
     Headers/MyProject.h \
     Headers/Personal.h \
     Headers/SchoolTask.h \
@@ -16,6 +17,7 @@ HEADERS += Headers/mainwindow.h \
     Headers/Task.h \
     Headers/Travel.h
 SOURCES += Sources/main.cpp \
+           Sources/Construction.cpp \
            Sources/MyProject.cpp \
            Sources/Personal.cpp \
            Sources/SchoolTask.cpp \

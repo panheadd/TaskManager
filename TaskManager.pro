@@ -10,6 +10,7 @@ CONFIG += c++17
 
 HEADERS += Headers/mainwindow.h \
     Headers/Construction.h \
+    Headers/Farming.h \
     Headers/MyProject.h \
     Headers/Personal.h \
     Headers/SchoolTask.h \
@@ -18,6 +19,7 @@ HEADERS += Headers/mainwindow.h \
     Headers/Travel.h
 SOURCES += Sources/main.cpp \
            Sources/Construction.cpp \
+           Sources/Farming.cpp \
            Sources/MyProject.cpp \
            Sources/Personal.cpp \
            Sources/SchoolTask.cpp \

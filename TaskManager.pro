@@ -16,6 +16,7 @@ HEADERS += Headers/mainwindow.h \
     Headers/SchoolTask.h \
     Headers/Sport.h \
     Headers/Task.h \
+    Headers/Transaction.h \
     Headers/Travel.h
 SOURCES += Sources/main.cpp \
            Sources/Construction.cpp \
@@ -25,6 +26,7 @@ SOURCES += Sources/main.cpp \
            Sources/SchoolTask.cpp \
            Sources/Sport.cpp \
            Sources/Task.cpp \
+           Sources/Transaction.cpp \
            Sources/Travel.cpp \
            Sources/mainwindow.cpp
 FORMS += Forms/mainwindow.ui
